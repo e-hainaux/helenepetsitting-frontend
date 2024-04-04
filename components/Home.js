@@ -1,12 +1,16 @@
-import styles from '../styles/Home.module.css';
+import styles from "../styles/Home.module.css";
+import MainContent from "./MainContent";
+import LeftBar from "./leftBar";
+
+import TopBar from "./topBar";
 
 function Home() {
   return (
     <div>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <LeftBar />
+        <TopBar />
+        <MainContent />
       </main>
     </div>
   );

@@ -1,0 +1,8 @@
+.mainContainer {
+  position: fixed;
+  right: 0;
+  top: 20vh;
+  width: 66vw;
+  height: 80vh;
+  background-color: blue;
+}
