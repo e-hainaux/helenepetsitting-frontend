@@ -1,8 +1,65 @@
 .mainContainer {
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
-  width: 33vw;
-  height: 100vh;
-  background-color: green;
+  left: 0;*/
+  grid-column: 1 / 2;
+  grid-row: 1 / 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* background-color: pink; */
+  /* border: 1px solid red; */
+}
+
+.chatschiens {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* border: 1px solid grey; */
+}
+.rongeurs {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid grey; */
+}
+.bassecour {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid grey; */
+}
+.chevaux {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid grey; */
+}
+.oiseaux {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid grey; */
+}
+.nac {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid grey; */
 }
