@@ -1,0 +1,13 @@
+.button {
+  width: 80%;
+  max-width: 400px;
+  height: 50px;
+  margin-top: 10px;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 1.2em;
+  background-color: #1aae9f;
+  border-radius: 8px;
+  border: none;
+  /* border: 2px solid red; */
+}

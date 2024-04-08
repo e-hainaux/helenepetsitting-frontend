@@ -17,7 +17,7 @@
   align-items: center;
   /* border: 1px solid red; */
 }
-.button {
+/* .button {
   width: 80%;
   max-width: 400px;
   height: 50px;
@@ -28,8 +28,8 @@
   background-color: #1aae9f;
   border-radius: 8px;
   border: none;
-  /* border: 2px solid red; */
-}
+  border: 2px solid red;
+} */
 
 /* .flagBtn {
   width: 40px;

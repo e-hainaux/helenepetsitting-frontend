@@ -1,0 +1,26 @@
+.scrollToTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 34px;
+  height: 34px;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  cursor: pointer;
+  border-radius: 30px;
+  /* border: 2px solid whitesmoke; */
+  background-color: white;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.arrow {
+  font-size: 30;
+}

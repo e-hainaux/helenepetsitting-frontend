@@ -1,6 +1,16 @@
-function Bienvenue() {
+import React, { useEffect, forwardRef } from "react";
+
+const Bienvenue = forwardRef((props, ref) => {
+  useEffect(() => {
+    console.log(
+      `Position du composant Bienvenue : ${
+        ref.current.getBoundingClientRect().top
+      }`
+    );
+  }, []);
+
   return (
-    <div>
+    <div ref={ref}>
       <h1>BIENVENUE !</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan
@@ -16,6 +26,6 @@ function Bienvenue() {
       </p>
     </div>
   );
-}
+});
 
 export default Bienvenue;
