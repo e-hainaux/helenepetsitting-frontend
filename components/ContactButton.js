@@ -1,15 +1,9 @@
 import React from "react";
 import styles from "../styles/ContactButton.module.css";
 
-const ContactButton = () => {
+const ContactButton = ({ onClick }) => {
   return (
-    <button
-      disabled={false}
-      className={styles.button}
-      onClick={() => {
-        console.log("Clic sur contact !");
-      }}
-    >
+    <button disabled={false} className={styles.button} onClick={onClick}>
       Contact / Devis gratuit
     </button>
   );
