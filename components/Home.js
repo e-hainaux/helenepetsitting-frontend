@@ -1,7 +1,7 @@
 import styles from "../styles/Home.module.css";
 import MainContent from "./MainContent";
-import LeftBar from "./leftBar";
-import TopBar from "./topBar";
+import LeftBar from "./LeftBar";
+import TopBar from "./TopBar";
 
 function Home() {
   return (
