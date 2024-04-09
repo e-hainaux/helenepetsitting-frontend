@@ -10,5 +10,6 @@
   background-color: #1aae9f;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
   /* border: 2px solid red; */
 }
