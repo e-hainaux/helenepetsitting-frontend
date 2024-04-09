@@ -86,7 +86,7 @@ function ContactDevis({ onClose }) {
     try {
       // Envoi des données au backend
       const response = await fetch(
-        "https://hps-frontend.vercel.app/form/send-email",
+        "https://helenepetsitting-backend.vercel.app/form/send-email",
         {
           method: "POST",
           headers: {
