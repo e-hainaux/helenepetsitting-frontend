@@ -1,15 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../styles/Modal.module.css";
-import BackButton from "./BackButton";
+import NavBar from "./NavBar";
+
 import cat from "../public/Images/cat.png";
 
 function ChatsChiens({ onClose }) {
   return (
     <div className={styles.mainContainer}>
-      <div className={styles.backBtnContainer}>
-        <BackButton onClose={onClose} />
-      </div>
+      <NavBar onClose={onClose} />
 
       <div className={styles.content}>
         <div className={styles.chatschiens}>

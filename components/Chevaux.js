@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "../styles/Modal.module.css";
-import BackButton from "./BackButton";
+import NavBar from "./NavBar";
 
 function Chevaux({ onClose }) {
   return (
     <div className={styles.mainContainer}>
-      <BackButton onClose={onClose} />
+      <NavBar onClose={onClose} />
 
       <div className={styles.content}>
         <p>CHEVAUX</p>
