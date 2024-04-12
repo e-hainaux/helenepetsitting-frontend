@@ -49,12 +49,13 @@
   /* border: 2px dotted yellow; */
 }
 
-.mainContainer h1 {
+.mainContainer h1,
+.mainContainer h2 {
   text-align: center;
 }
 
 .mainContainer p {
-  text-indent: 10px;
+  /* text-indent: 10px; */
   font-size: 1.2em;
   padding: 15px;
 

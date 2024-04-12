@@ -11,18 +11,64 @@ const Bienvenue = forwardRef((props, ref) => {
 
   return (
     <div ref={ref}>
-      <h1>BIENVENUE !</h1>
+      <h1>Hélène Petsitting PRO +</h1>
+      <h2>~ Un lien humain au service du bien-être animal ~</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan
-        pulvinar euismod. Duis et finibus ligula. Curabitur quis elit non quam
-        iaculis consectetur. Aliquam ullamcorper augue ut tortor cursus, eu
-        congue purus iaculis. Nullam ut luctus nisl. Pellentesque habitant morbi
-        tristique senectus et netus et malesuada fames ac turpis egestas.
-        Aliquam aliquet pellentesque velit, a ornare metus tincidunt a. Cras
-        finibus turpis non condimentum faucibus. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Nam accumsan pulvinar euismod. Duis et
-        finibus ligula. Curabitur quis elit non quam iaculis consectetur. - FIN
-        DU PARAGRAPHE -
+        Garde d'animaux chez les propriétaires et autres services associés.
+        <br />
+        <br />
+        Tous animaux.
+        <br />
+        <br />
+        Un animal.. c'est une histoire qui commence avec vous et qui peut
+        s'accompagner d'une rencontre qui permettra de ne jamais le laisser
+        seul.
+        <br />
+        <br />
+        Merci de prendre le temps de me découvrir et prendre connaissances de
+        mes services.
+        <br />
+        <br />
+        <br />
+        <br />
+        <strong>Qui suis-je ?</strong>
+        <br />
+        <br />
+        Hélène, Auxiliaire Spécialisée Vétérinaire (ASV) :
+        <br />
+        <br />
+        Après 15 ans de pratiques en soins, chirurgies, et accueil au seins de
+        différentes structures , j'ai fais le choix d'arrêter ma carrière en
+        clinique, pour me consacrer à la garde d'animaux.
+        <br />
+        <br />
+        Les liens et échanges, que j'ai tissé au fur et à mesure avec les
+        patients et leurs propriétaires sont pour moi une source de bonheur.
+        Continuer à servir la cause animal et prendre soins des animaux que je
+        connais, et aussi faire la rencontre de nouveaux animaux dans un cadre
+        plus familiale et avec une plus grande autonomie afin d'être d'avantage
+        disponible, me tenez à coeur.
+        <br />
+        <br />
+        Forte de mon expérience au-pré d'espèces variés (chiens, chats, N.A.C ,
+        oiseaux de basses-cours, équidés, caprins…), je suis heureuse de me
+        présenter aujourd'hui en tant que professionnelle de la santé animal et
+        petsitteuse pour vous accompagner au mieux.
+        <br />
+        <br />
+        Dévouée et passionnée des animaux, j'ai à coeur de prendre soins d'eux
+        et de les rassurer durant vos absences. Je sais, au combien, vous aussi
+        êtes inquiet à l'idée de les laisser entre de bonnes mains.
+        <br />
+        <br />
+        Je connais leurs besoin physiologique et j'ai la connaissance des
+        pathologies fréquentes afin de pouvoir vous accompagner de façon
+        sereine.
+        <br />
+        <br />
+        Dans ma démarche, je prends en compte vos habitudes, afin de travailler
+        dans <strong>une confiance réciproque indispensable</strong> au bon
+        déroulement du séjour, pour vous comme pour eux.
       </p>
     </div>
   );
