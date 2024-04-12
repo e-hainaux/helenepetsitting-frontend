@@ -11,7 +11,7 @@ const Bienvenue = forwardRef((props, ref) => {
 
   return (
     <div ref={ref}>
-      <h1>Hélène Petsitting PRO +</h1>
+      <h1>Hélène Pet-sitting PRO +</h1>
       <h2>~ Un lien humain au service du bien-être animal ~</h2>
       <p>
         Garde d'animaux chez les propriétaires et autres services associés.
