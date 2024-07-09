@@ -46,17 +46,6 @@
   /* background-color: green; */
   /* border: 2px solid green; */
 }
-/* .bassecour {
-  height: 100px !important;
-}
-
-.chats {
-  height: 100px !important;
-}
-.nac {
-  height: 100px !important;
-  width: 50px !important;
-} */
 
 .objectFitDog {
   transform: scale(0.75);
@@ -64,13 +53,6 @@
   object-fit: scale-down;
   /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
   /* border: 2px solid red !important; */
-}
-
-.objectFitDog:hover {
-  /* transform: scale(0.9); */
-  z-index: 999;
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
-  /* filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)); */
 }
 
 .objectFitCat {
@@ -83,13 +65,6 @@
   /* border: 2px solid red !important; */
 }
 
-.objectFitCat:hover {
-  /* transform: scale(0.9); */
-  z-index: 999;
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
-  /* filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)); */
-}
-
 .objectFitGroup {
   transform: scale(0.75);
   object-fit: scale-down;
@@ -100,13 +75,6 @@
   /* border: 2px solid red !important; */
 }
 
-.objectFitGroup:hover {
-  /* transform: scale(0.9); */
-  z-index: 999;
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
-  /* filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)); */
-}
-
 .objectFitRescaled {
   transform: scale(0.75);
   object-fit: scale-down;
@@ -115,11 +83,4 @@
   object-fit: contain;
   /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
   /* border: 2px solid red !important; */
-}
-
-.objectFitRescaled:hover {
-  /* transform: scale(0.9); */
-  z-index: 999;
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
-  /* filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)); */
 }
