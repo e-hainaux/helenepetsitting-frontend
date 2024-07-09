@@ -25,7 +25,7 @@
   filter: drop-shadow(2px 4px 8px rgba(98, 189, 190, 0.6));
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  /* border: 1px solid #62bdbe; */
+  border: 1px solid #62bdbe;
 }
 
 .imageButton:hover {
@@ -36,6 +36,10 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.imagebutton:focus {
+  outline: none;
+  background-color: transparent;
+}
 .imageButton > div {
   display: flex;
   flex-direction: row;
