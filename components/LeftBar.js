@@ -55,6 +55,7 @@ function LeftBar() {
       >
         <div className={styles.chiens}>
           <Image className={styles.objectFitDog} src={dog} />
+          <span className={styles.buttonText}>Chiens</span>
         </div>
       </button>
 
@@ -65,6 +66,7 @@ function LeftBar() {
       >
         <div className={styles.chats}>
           <Image className={styles.objectFitCat} src={cat} />
+          <span className={styles.buttonText}>Chats</span>
         </div>
       </button>
 
@@ -75,6 +77,7 @@ function LeftBar() {
       >
         <div className={styles.nac}>
           <Image className={styles.objectFitGroup} src={nacGlobalPicto} />
+          <span className={styles.buttonText}>N.A.C.</span>
         </div>
       </button>
 
@@ -85,6 +88,7 @@ function LeftBar() {
       >
         <div className={styles.bassecour}>
           <Image className={styles.objectFitRescaled} src={chicken} />
+          <span className={styles.buttonText}>Basse-cour</span>
         </div>
       </button>
 

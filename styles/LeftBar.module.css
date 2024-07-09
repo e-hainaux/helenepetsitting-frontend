@@ -6,9 +6,10 @@
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  min-width: 100px;
+  min-width: 80px;
   max-width: 200px;
   height: 100%;
+  z-index: 999;
   /* background-color: pink; */
   /* border: 1px solid red; */
 }
@@ -19,19 +20,22 @@
   -ms-user-select: none;
   user-select: none;
   outline: none;
-  width: 60px;
-  height: 60px;
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  padding: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   background-color: whitesmoke;
   border: none;
-  border-radius: 40px;
+  border-radius: 40px 40px 4px 40px;
   filter: drop-shadow(2px 4px 8px rgba(98, 189, 190, 0.6));
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  /* border: 1px solid #62bdbe; */
+  /* border: 1px solid blueviolet; */
 }
 
 .imageButton:hover {
@@ -44,21 +48,26 @@
 
 .imageButton > div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  height: 20vh;
-  box-sizing: content-box !important;
+  height: 100%;
+  box-sizing: content-box;
   /* background-color: green; */
-  /* border: 2px solid green; */
+  /* border: 1px solid yellow; */
 }
 
 .objectFitDog {
   transform: scale(0.75);
   background-color: transparent;
   object-fit: scale-down;
+  margin: 0;
+  padding: 0;
   /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
-  /* border: 2px solid red !important; */
+  /* border: 1px solid red !important; */
 }
 
 .objectFitDog:focus {
@@ -95,4 +104,15 @@
   object-fit: contain;
   /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
   /* border: 2px solid red !important; */
+}
+
+.buttonText {
+  /* border: 1px solid red; */
+  align-self: self-end;
+  font-size: 8px;
+  font-weight: 700;
+  color: #5d7879;
+  margin: 0 2px 4px 0;
+
+  /* border: 1px solid green; */
 }

@@ -1,9 +1,7 @@
 .homeContainer {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  display: flex;
-  flex-direction: row;
 
   width: 100vw;
   height: 100vh;
