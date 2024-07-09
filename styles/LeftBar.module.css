@@ -13,6 +13,12 @@
   /* border: 1px solid red; */
 }
 .imageButton {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
   width: 60px;
   height: 60px;
   display: flex;
@@ -36,10 +42,6 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.imagebutton:focus {
-  outline: none;
-  background-color: transparent;
-}
 .imageButton > div {
   display: flex;
   flex-direction: row;
@@ -57,6 +59,12 @@
   object-fit: scale-down;
   /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
   /* border: 2px solid red !important; */
+}
+
+.objectFitDog:focus {
+  outline: none;
+  background-color: transparent;
+  pointer-events: none;
 }
 
 .objectFitCat {
