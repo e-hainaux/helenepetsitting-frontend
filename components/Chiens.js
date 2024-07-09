@@ -1,12 +1,11 @@
 import React from "react";
 import Image from "next/image";
-
 import styles from "../styles/Modal.module.css";
 import NavBar from "./NavBar";
 
-import parrot from "../public/Images/parrot.png";
+import dog from "../public/Images/dog.png";
 
-function NAC({ onClose }) {
+function Chiens({ onClose }) {
   return (
     <div className={styles.mainContainer}>
       <NavBar onClose={onClose} />
@@ -14,11 +13,10 @@ function NAC({ onClose }) {
       <div className={styles.content}>
         <div className={styles.animalSection}>
           <div className={styles.animalImg}>
-            <Image className={styles.objectFit} src={parrot} />
+            <Image className={styles.objectFit} src={dog} />
           </div>
-
           <div className={styles.txtContainer}>
-            <h1>N.A.C.</h1>
+            <h1>CHIENS</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
               ac ligula eget mi ullamcorper viverra. Duis sagittis lacus eget
@@ -36,4 +34,4 @@ function NAC({ onClose }) {
   );
 }
 
-export default NAC;
+export default Chiens;

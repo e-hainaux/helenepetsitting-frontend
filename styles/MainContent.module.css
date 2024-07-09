@@ -6,10 +6,17 @@
   width: 100%;
   height: 100%;
   grid-column: 2 / 6;
-  grid-row: 2 / 6;
+  grid-row: 1 / 6;
   /* background-color: blue; */
 }
+.avoidBackToTopButton {
+  width: 100%;
+  height: 40px;
+}
 .buttonsContainer {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -44,7 +51,7 @@
 
 .txtContainer {
   width: 100%;
-  height: 90%;
+  height: 100%;
   overflow-y: auto;
   /* border: 2px dotted yellow; */
 }

@@ -9,6 +9,7 @@ import MesServices from "./MesServices";
 import MesEngagements from "./MesEngagements";
 import VosEngagements from "./VosEngagements";
 import ContactDevis from "./ContactDevis";
+import TopBar from "./TopBar";
 
 function MainContent() {
   const txtContainerRef = useRef(null);
@@ -43,9 +44,11 @@ function MainContent() {
 
   return (
     <div className={styles.mainContainer}>
-      <div className={styles.buttonsContainer}>
-        <ContactButton onClick={handleContactDevisClick} />
-        {/* <div className={styles.flagBtn}>
+      <div className={styles.txtContainer} ref={txtContainerRef}>
+        <TopBar className={styles.topBar} />
+        <div className={styles.buttonsContainer}>
+          <ContactButton onClick={handleContactDevisClick} />
+          {/* <div className={styles.flagBtn}>
           <Image
             src={UKflag}
             className={styles.flagPic}
@@ -55,8 +58,7 @@ function MainContent() {
             }}
           />
         </div> */}
-      </div>
-      <div className={styles.txtContainer} ref={txtContainerRef}>
+        </div>
         <Bienvenue ref={txtContainerRef} />
         <ScrollToTopButton
           isVisible={isVisible}
@@ -65,6 +67,7 @@ function MainContent() {
         <MesServices />
         <MesEngagements />
         <VosEngagements />
+        <div className={styles.avoidBackToTopButton}></div>
       </div>
       {isContactDevisOpen && <ContactDevis onClose={handleCloseContactDevis} />}
     </div>

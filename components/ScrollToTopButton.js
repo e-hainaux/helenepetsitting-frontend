@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaChevronUp } from "react-icons/fa";
+import { FaChevronCircleUp } from "react-icons/fa";
 import styles from "../styles/ScrollToTopButton.module.css";
 
 const ScrollToTopButton = ({ containerRef }) => {
@@ -33,7 +33,12 @@ const ScrollToTopButton = ({ containerRef }) => {
       className={`${styles.scrollToTop} ${isVisible ? styles.visible : ""}`}
       onClick={scrollToTop}
     >
-      <FaChevronUp size={32} style={{ color: "black" }} />
+      <FaChevronCircleUp
+        size={32}
+        style={{
+          color: "#617b7b",
+        }}
+      />
     </div>
   );
 };

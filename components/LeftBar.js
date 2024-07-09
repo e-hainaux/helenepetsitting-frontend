@@ -1,19 +1,17 @@
 import React, { useState } from "react";
 import styles from "../styles/LeftBar.module.css";
 import Image from "next/image";
-import ChatsChiens from "./ChatsChiens.js";
-import Rongeurs from "./Rongeurs.js";
+import Chiens from "./Chiens.js";
+import Chats from "./Chats.js";
 import BasseCour from "./BasseCour.js";
 import Chevaux from "./Chevaux.js";
 import Oiseaux from "./Oiseaux.js";
 import NAC from "./NAC.js";
 
+import dog from "../public/Images/dog.png";
 import cat from "../public/Images/cat.png";
-import mouse from "../public/Images/mouse.png";
+import nacGlobalPicto from "../public/Images/nacGlobalPicto.png";
 import chicken from "../public/Images/chicken.png";
-import horse from "../public/Images/horse.png";
-import parrot from "../public/Images/parrot.png";
-import snake from "../public/Images/snake.png";
 
 function LeftBar() {
   const [animalModal, setAnimalModal] = useState(null);
@@ -31,17 +29,17 @@ function LeftBar() {
 
   const renderModalContent = () => {
     switch (animalModal) {
+      case "chien":
+        return <Chiens onClose={handleCloseModal} />;
       case "chat":
-        return <ChatsChiens onClose={handleCloseModal} />;
-      case "souris":
-        return <Rongeurs onClose={handleCloseModal} />;
-      case "poulet":
+        return <Chats onClose={handleCloseModal} />;
+      case "poule":
         return <BasseCour onClose={handleCloseModal} />;
       case "cheval":
         return <Chevaux onClose={handleCloseModal} />;
       case "perroquet":
         return <Oiseaux onClose={handleCloseModal} />;
-      case "serpent":
+      case "nac":
         return <NAC onClose={handleCloseModal} />;
       default:
         return null;
@@ -50,63 +48,43 @@ function LeftBar() {
 
   return (
     <div className={styles.mainContainer}>
+      {/* Image de chien avec bouton cliquable */}
+      <button
+        onClick={() => handleImageClick("chien")}
+        className={styles.imageButton}
+      >
+        <div className={styles.chiens}>
+          <Image className={styles.objectFitDog} src={dog} />
+        </div>
+      </button>
+
       {/* Image de chat avec bouton cliquable */}
       <button
         onClick={() => handleImageClick("chat")}
         className={styles.imageButton}
       >
-        <div className={styles.chatschiens}>
-          <Image className={styles.objectFit} src={cat} />
+        <div className={styles.chats}>
+          <Image className={styles.objectFitCat} src={cat} />
         </div>
       </button>
 
-      {/* Image de souris avec bouton cliquable */}
+      {/* Image de groupe d'animaux N.A.C. avec bouton cliquable */}
       <button
-        onClick={() => handleImageClick("souris")}
-        className={styles.imageButton}
-      >
-        <div className={styles.rongeurs}>
-          <Image className={styles.objectFit} src={mouse} />
-        </div>
-      </button>
-
-      {/* Image de poulet avec bouton cliquable */}
-      <button
-        onClick={() => handleImageClick("poulet")}
-        className={styles.imageButton}
-      >
-        <div className={styles.bassecour}>
-          <Image className={styles.objectFit} src={chicken} />
-        </div>
-      </button>
-
-      {/* Image de cheval avec bouton cliquable */}
-      <button
-        onClick={() => handleImageClick("cheval")}
-        className={styles.imageButton}
-      >
-        <div className={styles.chevaux}>
-          <Image className={styles.objectFit} src={horse} />
-        </div>
-      </button>
-
-      {/* Image de perroquet avec bouton cliquable */}
-      <button
-        onClick={() => handleImageClick("perroquet")}
-        className={styles.imageButton}
-      >
-        <div className={styles.oiseaux}>
-          <Image className={styles.objectFit} src={parrot} />
-        </div>
-      </button>
-
-      {/* Image de serpent avec bouton cliquable */}
-      <button
-        onClick={() => handleImageClick("serpent")}
+        onClick={() => handleImageClick("nac")}
         className={styles.imageButton}
       >
         <div className={styles.nac}>
-          <Image className={styles.objectFit} src={snake} />
+          <Image className={styles.objectFitGroup} src={nacGlobalPicto} />
+        </div>
+      </button>
+
+      {/* Image de poule avec bouton cliquable */}
+      <button
+        onClick={() => handleImageClick("poule")}
+        className={styles.imageButton}
+      >
+        <div className={styles.bassecour}>
+          <Image className={styles.objectFitRescaled} src={chicken} />
         </div>
       </button>
 

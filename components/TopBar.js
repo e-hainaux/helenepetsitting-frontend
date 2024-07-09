@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/TopBar.module.css";
 import Image from "next/image";
 
-import mainPic from "../public/Images/HelenePic.jpg";
+import mainPic from "../public/Images/LogoHelene.png";
 
 function TopBar() {
   return (
@@ -11,6 +11,7 @@ function TopBar() {
         <Image
           className={styles.objectFit}
           src={mainPic}
+          priority={true}
           alt="Hélène Pet Sitting"
         />
       </div>
