@@ -26,6 +26,7 @@ const NavBar = ({ onClose }) => {
 
       <ContactButton onClick={handleContactDevisClick} />
       {isContactDevisOpen && <ContactDevis onClose={handleCloseContactDevis} />}
+      <div className={styles.voidDiv}></div>
     </div>
   );
 };

@@ -38,7 +38,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 25px;
+  padding: 0 24px;
   /* background-color: greenyellow;
   border: 2px dotted red; */
 }
@@ -50,6 +50,10 @@
   z-index: 99999;
 }
 
+.voidDiv {
+  width: 40px;
+  height: 80px;
+}
 .animalSection {
   width: 100%;
   height: auto;
@@ -99,4 +103,20 @@
   border-radius: 8px;
   border: none;
   /* border: 2px solid red; */
+}
+
+@media only screen and (max-width: 500px) {
+  .navBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    /* background-color: greenyellow;
+    border: 2px dotted red; */
+  }
+  .voidDiv {
+    display: none;
+  }
 }

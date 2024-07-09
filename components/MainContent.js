@@ -18,10 +18,8 @@ function MainContent() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // console.log("Je scrolle !");
-      // console.log("scrollTop valeur : " + txtContainerRef.current.scrollTop);
       const scrollTop = txtContainerRef.current.scrollTop;
-      const isButtonVisible = scrollTop > 0; // Afficher si scrollé au-delà de 0
+      const isButtonVisible = scrollTop > 0;
       setIsVisible(isButtonVisible);
     };
 
