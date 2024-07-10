@@ -8,7 +8,7 @@ const MenuButton = ({ isOpen, onClick }) => {
       className={`${styles.menuButton} ${isOpen ? styles.rotated : ""}`}
       onClick={onClick}
     >
-      <FaCirclePlus size={32} style={{ color: "#617b7b" }} />
+      <FaCirclePlus size={56} style={{ color: "#617b7b" }} />
     </button>
   );
 };

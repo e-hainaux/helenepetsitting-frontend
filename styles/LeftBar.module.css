@@ -19,8 +19,6 @@
 
 .menuButton {
   position: fixed;
-  top: 10px;
-  left: 10px;
   z-index: 1000;
 }
 
@@ -109,7 +107,7 @@
     top: 0;
     width: 60vw;
     max-width: 600px;
-    background-color: rgb(242, 253, 253);
+    background-color: rgb(248, 255, 255);
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
     height: 100vh;
   }
