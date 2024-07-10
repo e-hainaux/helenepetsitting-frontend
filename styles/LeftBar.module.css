@@ -109,7 +109,7 @@
     top: 0;
     width: 60vw;
     max-width: 600px;
-    background-color: whitesmoke;
+    background-color: rgb(230, 255, 255);
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
     height: 100vh;
   }
@@ -132,14 +132,14 @@
   }
 
   .imageButton {
-    width: 104px;
-    height: 104px;
+    width: 120px;
+    height: 120px;
     border-radius: 60px 60px 4px 60px;
   }
 
   .buttonText {
     align-self: self-end;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 2px 4px 0;
   }
 }
