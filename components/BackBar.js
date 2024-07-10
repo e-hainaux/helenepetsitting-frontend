@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import styles from "../styles/Modal.module.css";
-import BackButton from "./BackButton";
+import BackButton from "./buttons/BackButton";
 
 const NavBar = ({ onClose }) => {
   return (

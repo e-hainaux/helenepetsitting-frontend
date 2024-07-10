@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaChevronCircleUp } from "react-icons/fa";
-import styles from "../styles/ScrollToTopButton.module.css";
+import styles from "../../styles/ScrollToTopButton.module.css";
 
 const ScrollToTopButton = ({ containerRef }) => {
   const [isVisible, setIsVisible] = useState(false);

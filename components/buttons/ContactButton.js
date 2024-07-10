@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/ContactButton.module.css";
+import styles from "../../styles/ContactButton.module.css";
 
 const ContactButton = ({ onClick }) => {
   return (

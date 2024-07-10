@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/BackButton.module.css";
+import styles from "../../styles/BackButton.module.css";
 import { FaChevronLeft } from "react-icons/fa";
 
 const BackButton = ({ onClose }) => {

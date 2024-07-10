@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 import styles from "../styles/Modal.module.css";
-import BackButton from "./BackButton";
-import ContactButton from "./ContactButton";
+import BackButton from "./buttons/BackButton";
+import ContactButton from "./buttons/ContactButton";
 import ContactDevis from "./ContactDevis";
 
 const NavBar = ({ onClose }) => {
